@@ -8,7 +8,7 @@
 */
 
 {{ config(
-    tags=['layer1'],
+    tags=["layerA"],
     materialized='table') }}
 
 with source_data as (
