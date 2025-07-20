@@ -7,7 +7,9 @@
     Try changing "table" to "view" below
 */
 
-{{ config(materialized='table') }}
+{{ config(
+    tags=['layer1'],
+    materialized='table') }}
 
 with source_data as (
 
