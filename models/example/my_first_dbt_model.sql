@@ -9,7 +9,7 @@
 
 {{ config(
     tags=["layerA"],
-    materialized='table') }}
+    materialized="table") }}
 
 with source_data as (
 
