@@ -1,5 +1,7 @@
 {{ config(
-    tags=["layerC"],
+    tags=["priorty_down"] ) }}
+
+{{ config(
     materialized="view") }}
 
 WITH source AS (
