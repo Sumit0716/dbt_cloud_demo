@@ -8,7 +8,11 @@ model-paths: ["models"]
 
 models:
   dbt_cloud_demo:
+    +tags: priorty
     example:
       +materialized: table
+      +tags: priorty_main
     ORDERS:
       +materialized: table
+      +tags: priorty_down
+
