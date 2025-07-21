@@ -1,9 +1,5 @@
-
--- Use the `ref` function to select from other models
-
 {{ config(
-    tags=["layerB"]
-) }}
+    tags=["priorty_main"] ) }}
 
 select *
 from {{ ref('my_first_dbt_model') }}
