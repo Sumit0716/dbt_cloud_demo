@@ -1,6 +1,6 @@
 {{ config(
     tags=["layerC"],
-    materialized='view') }}
+    materialized="view") }}
 
 WITH source AS (
     SELECT
